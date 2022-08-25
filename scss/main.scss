@@ -1,0 +1,39 @@
+// utils  styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/card-set';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/container';
+@import './components/section';
+@import './components/container__tittle';
+@import './components/buttons';
+@import './components/form';
+@import './components/backdrop';
+@import './components/mobile-menu';
+
+// layout styles
+@import './layout/header';
+@import './layout/logo';
+@import './layout/nav';
+@import './layout/contacts';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/social';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/join';
+@import './layout/join';
+@import './layout/cat';
+@import './layout/project';
+@import './layout/subscribe';
+
+
+
+

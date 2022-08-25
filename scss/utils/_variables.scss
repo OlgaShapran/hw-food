@@ -1,0 +1,27 @@
+:root {
+    /*---------- main fonts----- */
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+
+    /*---------- text colors----- */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    --white-txt-cl: #FFFFFF;
+    --btn-txt-cl: #FFFFFF;
+    --tel-txt-cl: #757575;
+    --footer-txt-cl: rgba(255, 255, 255, 0.6);
+    --studio-txt-cl: #000000;
+    --soc-cl: #AFB1B8;
+
+    /*------------ bg colors -------*/
+    --light-bg-cl: #E5E5E5;
+    --dark-bg-cl: #2F303A;
+    --portfolio-bg-cl: #EEEEEE;
+    --team-bg-cl: #F5F4FA;
+    --btn-bl-cl: #188CE8;
+    --line-cl: #ECECEC;
+
+    /* others */
+    --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // --indent: 30px;
+}

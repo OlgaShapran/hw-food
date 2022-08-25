@@ -1,0 +1,58 @@
+.contacts {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+
+@media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+.contacts__list{
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.contacts__mail {
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+        }
+
+    @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+    margin-bottom: 0;
+        }
+}
+
+/* сделать ласт чайлд */
+.contacts__link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    transition: color var(--anim);
+    color: var(--tel-txt-cl);
+
+    @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    }
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
+}
+
+.contacts__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
